@@ -1,0 +1,2 @@
+mainMenu:-
+    gameStart('P', 'P').
