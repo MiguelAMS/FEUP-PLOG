@@ -9,8 +9,10 @@ initialBoard([
 
 
 symbol(empty, S):- S= '.'.
-symbol(red, S):- S= 'X'.
-symbol(blue, S):- S= 'O'.
+symbol(1, S):- S= 'Black'.
+symbol(2, S):- S= 'Red'.
+symbol('Black', S):- S= 'O'.
+symbol('Red', S):- S= 'X'.
 
 /*Since the game itself doesn't have square notation, we decided to adopt the chess notation, meaning that rows are designated by numbers and columns by letters, from left to right and bottom to top*/
 printBoard(X):-

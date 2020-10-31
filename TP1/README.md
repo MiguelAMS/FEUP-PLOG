@@ -1,6 +1,7 @@
 
 
 
+
 # PLOG 2020/2021 - TP1
 
 ## Group T04_Gekitai2
@@ -48,12 +49,56 @@ initialBoard([
 ```
 - Intermediate Situation:
 ```
+IntermediateBoard([
+['Black', 'Black', empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, 'Red', empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty]
+]).
 ```
 ```
+   | A | B | C | D | E | F |
+---|---|---|---|---|---|---|
+ 1 | O | O | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 2 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 3 | . | . | X | . | . | . | 
+---|---|---|---|---|---|---|
+ 4 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 5 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 6 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
 ```
 -   Final Situation:
 ```
+FinalBoard([
+['Black', 'Black', 'Black', empty, empty, empty],
+['Red', 'Red', empty, empty, empty, empty],
+[empty, empty, 'Red', empty, empty, empty],
+[empty, empty, empty, 'Black', empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty]
+]).
 ```
 ```
+   | A | B | C | D | E | F |
+---|---|---|---|---|---|---|
+ 1 | O | O | O | . | . | . | 
+---|---|---|---|---|---|---|
+ 2 | X | X | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 3 | . | . | X | . | . | . | 
+---|---|---|---|---|---|---|
+ 4 | . | . | . | O | . | . | 
+---|---|---|---|---|---|---|
+ 5 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
+ 6 | . | . | . | . | . | . | 
+---|---|---|---|---|---|---|
 ```
 ## TO DO:

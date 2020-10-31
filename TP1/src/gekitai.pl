@@ -1,6 +1,8 @@
-:- consult('menus.pl').
-:- consult('game.pl').
-:- consult('board.pl').
+:- consult('play.pl').
+:- consult('display.pl').
+:- consult('input.pl').
+:- consult('utils.pl').
+:-use_module(library(lists)).
 
 gekitai:-
     play.
