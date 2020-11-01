@@ -7,6 +7,28 @@ initialBoard([
 [empty, empty, empty, empty, empty, empty]
 ]).
 
+/*
+IntermediateBoard([
+['Black', 'Black', empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, 'Red', empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty]
+]).
+*/
+
+/*
+FinalBoard([
+['Black', 'Black', 'Black', empty, empty, empty],
+['Red', 'Red', empty, empty, empty, empty],
+[empty, empty, 'Red', empty, empty, empty],
+[empty, empty, empty, 'Black', empty, empty],
+[empty, empty, empty, empty, empty, empty],
+[empty, empty, empty, empty, empty, empty]
+]).
+*/
+
 
 symbol(empty, S):- S= '.'.
 symbol(1, S):- S= 'Black'.
