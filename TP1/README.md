@@ -124,8 +124,11 @@ symbol('Black', S):-  S= 'O'.
 symbol('Red', S):-  S= 'X'.
 ```
 - Initial State
+
 ![initialBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/initialBoard.png)
 - Intermediate State
+
 ![IntermediateBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/IntermediateBoard.png)
 - Final State
+
 ![FinalBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/FinalBoard.png)
