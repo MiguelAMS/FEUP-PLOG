@@ -3,6 +3,7 @@
 
 
 
+
 # PLOG 2020/2021 - TP1
 
 ## Group T04_Gekitai2
@@ -28,7 +29,7 @@ To represent the board we used a list of lists. Each one of the internal lists r
 ### Player
 Each player is represented by a color and a symbol, Player1 is black and represented by the symbol **O** and Player2 is red represented by player **X**.
 ### GameStates 
-- Initial situation: 
+- Initial State: 
 ```
 initialBoard([
 [empty, empty, empty, empty, empty, empty],
@@ -55,7 +56,7 @@ initialBoard([
  6 | . | . | . | . | . | . | 
 ---|---|---|---|---|---|---|
 ```
-- Intermediate Situation:
+- Intermediate State:
 ```
 IntermediateBoard([
 ['Black', 'Black', empty, empty, empty, empty],
@@ -82,7 +83,7 @@ IntermediateBoard([
  6 | . | . | . | . | . | . | 
 ---|---|---|---|---|---|---|
 ```
--   Final Situation:
+-   Final State:
 ```
 FinalBoard([
 ['Black', 'Black', 'Black', empty, empty, empty],
@@ -122,3 +123,9 @@ symbol(2, S):-  S= 'Red'.
 symbol('Black', S):-  S= 'O'.
 symbol('Red', S):-  S= 'X'.
 ```
+- Initial State
+![initialBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/initialBoard.png)
+- Intermediate State
+![IntermediateBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/IntermediateBoard.png)
+- Final State
+![FinalBoard](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/FinalBoard.png)
