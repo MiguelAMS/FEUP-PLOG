@@ -30,11 +30,11 @@ FinalBoard([
 */
 
 
-symbol(empty, S):- S= '.'.
+symbol(empty, S):- S= ' '.
 symbol(1, S):- S= 'Black'.
 symbol(2, S):- S= 'Red'.
-symbol('Black', S):- S= 'O'.
-symbol('Red', S):- S= 'X'.
+symbol('Black', S):- S= 'X'.
+symbol('Red', S):- S= 'O'.
 
 /*Since the game itself doesn't have square notation, we decided to adopt the chess notation, meaning that rows are designated by numbers and columns by letters, from left to right and bottom to top*/
 printBoard(X):-
