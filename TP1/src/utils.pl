@@ -532,7 +532,7 @@ value(GameState, Player, Value):-
         Points2 is 0
     ),
     pointsperPiecesOnBoard(GameState, 6, 6, Player, 0, Points1),
-    Value is Points1.
+    Value is Points1+Points2.
 
 
 %predicate that selects the best boards
