@@ -457,13 +457,13 @@ checkPieces(Row, Col, Piece, Board, No):-
 
 
 
-%chooses a random value from list List to Elt
+%chooses a random value from list List to ChosenList
 choose([], []).
 
-choose(List, Elt) :-
+choose(List, ChosenList) :-
     length(List, Length),
     random(0, Length, Index),
-    nth0(Index, List, Elt), !.
+    nth0(Index, List, ChosenList), !.
 
 %creates a new position to be used in the validPos predicate
 newPos(Row, Col, Row, Col).
@@ -527,7 +527,7 @@ pointsperPiecesOnBoard(Board, Row, Column, Player, InicialPoints, FinalPoints):-
 value(GameState, Player, Value):-
 	symbol(Player,Symbol),
     (
-        checkWin(GameState,Symbol),Points2 is 100
+        checkWin(GameState,Symbol), Points2 is 100
         ;
         Points2 is 0
     ),
