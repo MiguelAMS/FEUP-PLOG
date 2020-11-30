@@ -65,3 +65,5 @@ checkOption2(MenuChoice):-
 
 checkOption2(_):-
 	write('Invalid option! Select again!\n').
+	
+	
