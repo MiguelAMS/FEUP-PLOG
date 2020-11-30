@@ -108,12 +108,15 @@ When starting the game, the application displays a **mainMenu**, with 3 game mod
 -   Player vs Player (PvP)
 -   Player vs Computer (PvC)
 -   Computer vs Computer (CvC)
+
 ![mainMenu](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/mainMenu.png)
 If the chose game mode envolves a computer, the user is prompted to a **secondaryMenu** where they can select the AI's difficulty level.
+
 ![secondaryMenu](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/secondMenu.png)
 #### Input validation - [input.pl](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/src/input.pl)
 - In-Game validation
 During the game, each player is asked to play by giving the value of the row and column where they want to move the piece `readColumn(NewColumn)` and `readRow(NewRow)`. These values are then checked by the predicates `checkRow(Row, NextRow)` and `checkColumn(Column, NextColumn)`that assign the values selected by the user if the move is valid, if not, the user is asked for a new move again.
+
 ![inputError](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/inputError.png)
 - Menu validation
 In the menus, the user is asked to choose a mode by the predicate `readMenuChoice` and the  validation of the input is made by the `checkOption(MenuChoice)`and `checkOption2(MenuChoice)`predicates. If the input is valid the option chosen is then passed to one of the `makeOption`predicates.
