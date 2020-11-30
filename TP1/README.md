@@ -142,8 +142,11 @@ All the computer moves are processed by the `choose_move(+GameState, +Player, +L
 This way, the only boards sent to the **choose** predicate call are the ones that give the computer the highest winning chances.
 ### Conclusions 
 At first, the development of this project gave us some difficulties since Prolog is a brand new programming language to us. However, working on the project through the weeks helped our understanding of the language's syntax and made us more confortable at working with it. With that being said, the development of this project significantly improved our understanding of a logic based programming language such as Prolog.
+
 In regards to any bugs or known issues we believe there are none, having all required features implemented correctly.
+
 To conclude, concerning possible improvements, we could've done a better job with the game's AI (Artificial Intelligence), developing a better `value(+GameState, +Player, -Value)`predicate, that not only uses the amount of pieces on the board or a possible win threat but also the possibility of creating a 2 in a row (giving us winning chances in the next turn), etc.
+
 In regards to the student's contribution to the project we consider:
 
 - up201806388 (Miguel Silva): 65%
