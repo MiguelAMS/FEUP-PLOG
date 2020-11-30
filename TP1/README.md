@@ -110,7 +110,8 @@ When starting the game, the application displays a **mainMenu**, with 3 game mod
 -   Computer vs Computer (CvC)
 
 ![mainMenu](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/mainMenu.png)
-If the chose game mode envolves a computer, the user is prompted to a **secondaryMenu** where they can select the AI's difficulty level.
+
+If the chosen game mode envolves a computer, the user is prompted to a **secondaryMenu** where they can select the AI's difficulty level.
 
 ![secondaryMenu](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/img/secondMenu.png)
 #### Input validation - [input.pl](https://github.com/MiguelAMS/FEUP-PLOG/blob/master/TP1/src/input.pl)
@@ -143,6 +144,10 @@ This way, the only boards sent to the **choose** predicate call are the ones tha
 At first, the development of this project gave us some difficulties since Prolog is a brand new programming language to us. However, working on the project through the weeks helped our understanding of the language's syntax and made us more confortable at working with it. With that being said, the development of this project significantly improved our understanding of a logic based programming language such as Prolog.
 In regards to any bugs or known issues we believe there are none, having all required features implemented correctly.
 To conclude, concerning possible improvements, we could've done a better job with the game's AI (Artificial Intelligence), developing a better `value(+GameState, +Player, -Value)`predicate, that not only uses the amount of pieces on the board or a possible win threat but also the possibility of creating a 2 in a row (giving us winning chances in the next turn), etc.
+In regards to the student's contribution to the project we consider:
+
+- up201806388 (Miguel Silva): 65%
+- up201506561 (Rodrigo Abrantes): 35%
 ### Bibliography
 - [SICStus Prolog User's Manual](https://sicstus.sics.se/sicstus/docs/latest4/pdf/sicstus.pdf)
 - [SWI-Prolog](https://www.swi-prolog.org/)
