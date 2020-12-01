@@ -11,4 +11,3 @@
 %main function
 play:-
 	start.
-	

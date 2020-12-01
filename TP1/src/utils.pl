@@ -569,4 +569,3 @@ allBoardsPoints([H|T], ListBoards, Player, FinalListOfBoards):-
 findBestMove(ListBoards, Player,BestBoards):-
 	allBoardsPoints(ListBoards, [], Player, BoardsScored),
 	findBestBoards(-10, BoardsScored, [], BestBoards).
-	

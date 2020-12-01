@@ -64,4 +64,3 @@ printLine([H|T]):-
     write(S),
     write(' | '),
     printLine(T).
-

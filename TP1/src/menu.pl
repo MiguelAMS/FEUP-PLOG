@@ -122,4 +122,3 @@ makeOptionCvC(2):-
 	game_loop_cvc_hard('AI2', 'AI2'),
 	sleep(1),
 	start.
-	

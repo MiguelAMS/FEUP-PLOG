@@ -161,4 +161,3 @@ endGame(Winner):-
 	write(Player),
 	write(' wins the game!!!!\n'),
 	write('_____________________________________________________________________       '),nl,nl,nl.
-	
