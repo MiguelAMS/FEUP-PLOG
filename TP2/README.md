@@ -7,10 +7,16 @@ Por forma a executar o programa basta utilizar o Sistema de Desenvolvimento SICS
 Para obter a resolução de um problema, basta inserir no terminal do SICStus:
 
 ```
-cnote(+Input,+RowLength, +Sum).
+cnote(+Input, +RowLength, +Sum).
 ```
 
 Em que *Input* é a grelha do problema, tratando-se de uma lista simples, *RowLength* é o tamanho das linhas/colunas e *Sum* a soma das colunas e linhas desejada.
+
+Para gerar uma matriz que tem, de certeza, pelo menos uma solução, basta correr o predicado: 
+
+```
+cnoteGenerate(+Length, +Value, -PossibleMatrix).
+```
 
 ### Notas
 
